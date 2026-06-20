@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第四屆草莓盃羽球錦標賽 ・ 簡章</title>
+<meta name="description" content="第四屆草莓盃羽球錦標賽簡章｜2026/8/24 奧森羽球學院。賽制、參加資格、報名費用、獎勵與報名資訊。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Pacifico&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#FCE3E9;--bg-deep:#F9CDD8;--ink:#21305C;--ink-soft:#4a5680;
+    --berry:#D6336C;--berry-bright:#FF5C8A;--berry-press:#c22a5d;
+    --cream:#FFF8FA;--line:#F3B9C8;--court:#2A3566;
+    --shadow:0 10px 30px rgba(192,42,93,.12);--radius:20px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:"Noto Sans TC",system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.75;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:760px;margin:0 auto;padding:0 18px}
+
+  nav.top{position:sticky;top:0;z-index:50;background:rgba(252,227,233,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  nav.top ul{display:flex;gap:6px;list-style:none;overflow-x:auto;padding:10px 14px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  nav.top ul::-webkit-scrollbar{display:none}
+  nav.top a{flex:0 0 auto;text-decoration:none;color:var(--ink);font-weight:700;font-size:.86rem;padding:6px 12px;border-radius:999px;white-space:nowrap;transition:background .18s,color .18s}
+  nav.top a:hover{background:var(--berry);color:#fff}
+  nav.top a:focus-visible{outline:3px solid var(--berry);outline-offset:2px}
+
+  header.hero{position:relative;overflow:hidden;background:linear-gradient(160deg,#FBD0DC 0%,#F9C2D1 100%);padding:54px 0 56px}
+  header.hero::before{content:"";position:absolute;inset:18px;border:2px solid rgba(255,255,255,.7);border-radius:8px;
+    background:linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7)) center/2px 100% no-repeat,
+      linear-gradient(rgba(255,255,255,.55),rgba(255,255,255,.55)) center 33%/100% 2px no-repeat,
+      linear-gradient(rgba(255,255,255,.55),rgba(255,255,255,.55)) center 67%/100% 2px no-repeat;pointer-events:none}
+  .hero-inner{position:relative;z-index:1;text-align:center}
+  .script{font-family:"Pacifico",cursive;color:var(--berry);font-size:1.5rem;opacity:.9;transform:rotate(-3deg);display:inline-block}
+  .edition{font-weight:700;letter-spacing:.4em;color:var(--berry);margin:8px 0 2px;font-size:1rem;padding-left:.4em}
+  .title{font-weight:900;color:var(--berry);font-size:clamp(2.3rem,9vw,3.5rem);line-height:1.12;letter-spacing:.04em;text-shadow:2px 2px 0 rgba(255,255,255,.55)}
+  .shuttle{font-size:2.1rem;margin:6px 0 16px}
+  .chips{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+  .chip{background:rgba(255,255,255,.8);color:var(--ink);font-weight:700;font-size:.95rem;border-radius:999px;padding:8px 16px;box-shadow:0 4px 12px rgba(192,42,93,.1)}
+  .chip b{color:var(--berry)}
+
+  .cta{display:inline-flex;align-items:center;gap:10px;background:var(--berry-bright);color:#fff;text-decoration:none;font-weight:900;font-size:1.12rem;letter-spacing:.03em;padding:15px 32px;border-radius:999px;box-shadow:0 10px 24px rgba(255,92,138,.45);transition:transform .15s,box-shadow .15s,background .15s}
+  .cta:hover{background:var(--berry-press);transform:translateY(-2px);box-shadow:0 14px 28px rgba(255,92,138,.5)}
+  .cta:active{transform:translateY(0)}
+  .cta:focus-visible{outline:3px solid #fff;outline-offset:3px}
+
+  main{padding:34px 0 10px}
+  section{margin-bottom:34px}
+  .lead{background:var(--cream);border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid #fde7ee;padding:18px 22px;text-align:center;font-size:.98rem;color:var(--ink-soft);margin-bottom:34px}
+  .lead b{color:var(--berry)}
+  .sec-head{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+  .num{flex:0 0 auto;width:38px;height:38px;border-radius:50%;background:var(--berry);color:#fff;font-weight:900;display:grid;place-items:center;font-size:1.1rem;box-shadow:0 4px 10px rgba(214,51,108,.3)}
+  .sec-head h2{font-size:1.45rem;font-weight:900;color:var(--ink);letter-spacing:.02em}
+  .card{background:var(--cream);border-radius:var(--radius);box-shadow:var(--shadow);padding:22px;border:1px solid #fde7ee}
+  .kv{display:grid;grid-template-columns:auto 1fr;gap:10px 16px;align-items:baseline}
+  .kv dt{font-weight:700;color:var(--berry);white-space:nowrap}
+  .kv dd{color:var(--ink)}
+  ol.list,ul.list{padding-left:0;list-style:none;display:flex;flex-direction:column;gap:12px}
+  ol.list li,ul.list li{display:flex;gap:12px;align-items:flex-start}
+  ol.list li .i,ul.list li .i{flex:0 0 auto;min-width:26px;height:26px;padding:0 6px;border-radius:8px;background:var(--bg-deep);color:var(--berry);font-weight:900;font-size:.86rem;display:grid;place-items:center;margin-top:3px}
+  .hl{color:var(--berry);font-weight:700}
+  .ball{display:inline-block;background:#eaf3ff;color:#1e3a7a;border:1px solid #cfe0ff;border-radius:8px;padding:1px 8px;font-weight:700;font-size:.92em}
+  .ok-note{background:#eaf6ee;border:1px solid #b9e0c6;border-radius:12px;padding:12px 14px;color:#1f5b35;font-weight:700;margin-bottom:16px}
+
+  .courts{display:flex;gap:18px;flex-wrap:wrap;justify-content:center}
+  .court-box{flex:1 1 200px;max-width:280px;text-align:center}
+  .court-box h3{font-size:1.05rem;color:var(--berry);font-weight:900;margin-bottom:8px}
+  .court-box svg{width:100%;height:auto;background:#fff;border-radius:14px;box-shadow:0 4px 14px rgba(192,42,93,.1);padding:8px}
+  .legend{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-top:14px;font-size:.85rem;color:var(--ink-soft)}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  .sw{width:16px;height:12px;border-radius:3px;display:inline-block}
+
+  .prizes{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .prize{background:linear-gradient(155deg,#fff,#fff2f6);border:1.5px solid #f6c6d6;border-radius:16px;padding:16px 14px;text-align:center}
+  .prize .rank{font-weight:700;color:var(--ink-soft);font-size:.92rem}
+  .prize .amt{font-weight:900;color:var(--berry);font-size:1.5rem;margin-top:4px;line-height:1.1}
+  .prize .amt small{font-size:.6em;font-weight:700;color:var(--ink-soft)}
+  .prize.gold{border-color:#f0a8c0}
+  .extra{margin-top:14px;text-align:center;color:var(--ink);font-weight:700}
+  .tag{display:inline-block;background:var(--bg-deep);color:var(--berry);font-weight:700;font-size:.8rem;border-radius:999px;padding:3px 12px;margin-left:6px}
+
+  .todo{background:#fff5d6;color:#8a6d00;border:1px dashed #e0bf4d;border-radius:8px;padding:2px 10px;font-weight:700;font-size:.9em;display:inline-block}
+  .acct{font-family:ui-monospace,monospace;background:#eef1f8;border:1px solid #d4dbf0;border-radius:6px;padding:1px 8px;font-weight:700;letter-spacing:.04em}
+  .reg-grid{display:grid;grid-template-columns:auto 1fr;gap:12px 16px;align-items:center;margin-bottom:16px}
+  .reg-grid dt{font-weight:700;color:var(--berry)}
+  .reg-notes{list-style:none;padding:0;display:flex;flex-direction:column;gap:8px;margin-bottom:20px;font-size:.92rem;color:var(--ink)}
+  .reg-notes li{background:#fff3f6;border-left:3px solid var(--berry);border-radius:6px;padding:8px 12px}
+  .reg-cta{text-align:center}.reg-cta .cta{margin:4px 0}
+
+  footer{background:var(--ink);color:#dfe4f2;text-align:center;padding:34px 18px 30px;margin-top:30px}
+  footer .ft-title{font-weight:900;font-size:1.25rem;color:#fff;letter-spacing:.04em}
+  footer .ft-meta{margin:8px 0 14px;color:#aab2cf;font-size:.95rem}
+  footer .note{font-size:.8rem;color:#8a93b5;margin-top:12px}
+
+  .totop{position:fixed;right:18px;bottom:18px;z-index:60;width:48px;height:48px;border-radius:50%;background:var(--berry);color:#fff;display:grid;place-items:center;font-size:1.5rem;font-weight:900;text-decoration:none;box-shadow:0 6px 18px rgba(214,51,108,.4);opacity:0;visibility:hidden;transform:translateY(10px);transition:opacity .25s,transform .25s,background .15s}
+  .totop.show{opacity:1;visibility:visible;transform:none}
+  .totop:hover{background:var(--berry-press)}
+  .totop:focus-visible{outline:3px solid #fff;outline-offset:3px}
+
+  @media (max-width:430px){
+    .prizes{grid-template-columns:1fr}
+    .court-box{flex:1 1 100%}
+    .kv,.reg-grid{grid-template-columns:1fr}
+    .kv dt{margin-top:6px}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+  @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  .hero-inner>*{animation:rise .6s both}
+  .hero-inner>*:nth-child(2){animation-delay:.05s}
+  .hero-inner>*:nth-child(3){animation-delay:.1s}
+  .hero-inner>*:nth-child(4){animation-delay:.15s}
+  .hero-inner>*:nth-child(5){animation-delay:.2s}
+</style>
+</head>
+<body>
+
+<nav class="top" id="top" aria-label="章節導覽">
+  <ul>
+    <li><a href="#basic">比賽資料</a></li>
+    <li><a href="#format">賽制</a></li>
+    <li><a href="#eligibility">參加資格</a></li>
+    <li><a href="#notes">注意事項</a></li>
+    <li><a href="#court">場地範圍</a></li>
+    <li><a href="#prize">獎勵</a></li>
+    <li><a href="#register">報名</a></li>
+  </ul>
+</nav>
+
+<header class="hero">
+  <div class="wrap hero-inner">
+    <div class="script">championship</div>
+    <div class="edition">第四屆</div>
+    <h1 class="title">草莓盃<br>羽球錦標賽</h1>
+    <div class="shuttle" aria-hidden="true">🏸🍓</div>
+    <div class="chips">
+      <span class="chip">📅 <b>2026 / 8 / 24</b></span>
+      <span class="chip">📍 <b>奧森羽球學院</b></span>
+      <span class="chip">🏸 單打 ・ 雙打</span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <p class="lead">🍓 <b>宗旨</b>：體現競技之美，藉由推廣在地羽球錦標賽事，培養各年齡層良好的休閒活動，提供<b>業餘選手</b>球技交流，體驗羽球運動及競技帶來的成就與榮譽，以邁向全民運動為目標。</p>
+
+  <!-- 1 比賽基本資料 -->
+  <section id="basic">
+    <div class="sec-head"><span class="num">1</span><h2>比賽基本資料</h2></div>
+    <div class="card">
+      <dl class="kv">
+        <dt>比賽名稱</dt><dd>草莓盃羽球錦標賽（第四屆）</dd>
+        <dt>主辦單位</dt><dd>草莓盃羽球錦標賽委員會</dd>
+        <dt>比賽時間</dt><dd>2026 / 08 / 24</dd>
+        <dt>比賽地點</dt><dd>奧森羽球學院</dd>
+        <dt>比賽項目</dt><dd>單打、雙打</dd>
+        <dt>報到檢錄</dt><dd>請於個人賽程開始前 30 分鐘完成報到與檢錄</dd>
+        <dt>比賽用球</dt><dd>VICTOR 勝利羽球 <span class="ball">B-01N 新比賽級・藍蓋羽毛球</span></dd>
+      </dl>
+    </div>
+  </section>
+
+  <!-- 2 比賽方式 -->
+  <section id="format">
+    <div class="sec-head"><span class="num">2</span><h2>比賽方式</h2></div>
+    <div class="card">
+      <ol class="list">
+        <li><span class="i">一</span><span>單打、雙打皆採 <span class="hl">21 分</span>，皆為<span class="hl">單局制</span>。</span></li>
+        <li><span class="i">二</span><span>雙打<span class="hl">性別不限</span>（男雙、女雙、混雙皆可）。</span></li>
+        <li><span class="i">三</span><span>各局比賽經主審同意，可要求<span class="hl">暫停一次</span>，每次一分鐘。</span></li>
+        <li><span class="i">四</span><span>請各隊事先取好合適的<span class="hl">隊名</span>。</span></li>
+        <li><span class="i">五</span><span>請於比賽前 <span class="hl">30 分鐘</span>入場完成<span class="hl">檢錄</span>。</span></li>
+        <li><span class="i">六</span><span>比賽用球：VICTOR 勝利羽球 B-01N 新比賽級藍蓋羽毛球。</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 3 參加資格 -->
+  <section id="eligibility">
+    <div class="sec-head"><span class="num">3</span><h2>參加對象及資格限制</h2></div>
+    <div class="card">
+      <div class="ok-note">✓ 羽球程度依「台灣羽球推廣協會羽球程度分級制度」<strong>9 級（含）以下</strong>者，皆可報名參加！</div>
+      <p style="margin-bottom:10px">本賽事以<strong class="hl">業餘球友</strong>為對象，下列對象<strong class="hl">不得參加</strong>：</p>
+      <ul class="list">
+        <li><span class="i">✕</span><span>各級學校<strong>甲組選手 / 校代表隊</strong>球員</span></li>
+        <li><span class="i">✕</span><span>曾於<strong>全國高中盃、大專盃、群岳盃</strong>等大型賽事獲<strong>前四名</strong>者</span></li>
+        <li><span class="i">✕</span><span><strong>體育保送生（體保生）</strong></span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 4 注意事項 -->
+  <section id="notes">
+    <div class="sec-head"><span class="num">4</span><h2>注意事項</h2></div>
+    <div class="card">
+      <ol class="list">
+        <li><span class="i">一</span><span>請各參賽者於個人賽程開始前 <span class="hl">30 分鐘</span> 完成報到與檢錄。</span></li>
+        <li><span class="i">二</span><span>分組將以<span class="hl">直播形式抽籤</span>決定，並於比賽前一週內公布賽程。</span></li>
+        <li><span class="i">三</span><span>報到時間結束仍未報到者以<span class="hl">棄權</span>論；競賽時<span class="hl">唱名三次</span>仍未至準備區者亦視同棄權。被取消資格者不得以任何理由要求延後比賽。</span></li>
+        <li><span class="i">四</span><span>場地提供飲水機。選手可自由外出用餐，主辦單位<strong>不提供</strong>代訂便當服務。</span></li>
+        <li><span class="i">五</span><span>選手須恪守比賽禮儀，尊重並聽從裁判判決，不聽從則視同棄權；嚴禁人身攻擊等情事。違反者，主辦單位保有一切裁判權。</span></li>
+        <li><span class="i">六</span><span>賽場後方座位為選手休息區，<span class="hl">貴重物品請自行保管</span>，主辦方不負遺失責任。</span></li>
+        <li><span class="i">七</span><span>比賽中可提出抗議，抗議內容須含<span class="hl">確實之證據</span>。</span></li>
+        <li><span class="i">八</span><span>上述規則若有不足之處，主辦方保有<span class="hl">調整及修改</span>之權力。</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 5 單雙打範圍線 -->
+  <section id="court">
+    <div class="sec-head"><span class="num">5</span><h2>單 / 雙打範圍線</h2></div>
+    <div class="card">
+      <div class="courts">
+        <div class="court-box">
+          <h3>單打 Singles</h3>
+          <svg viewBox="0 0 130 270" role="img" aria-label="單打場地範圍：發球區與接球區為較窄、較深的對角區域">
+            <rect x="65" y="171" width="47" height="85" fill="rgba(214,51,108,.18)"/>
+            <rect x="18" y="14" width="47" height="85" fill="rgba(214,51,108,.18)"/>
+            <g fill="none" stroke="#2A3566" stroke-width="1.4">
+              <rect x="10" y="14" width="110" height="242"/>
+              <line x1="18" y1="14" x2="18" y2="256"/><line x1="112" y1="14" x2="112" y2="256"/>
+              <line x1="10" y1="99" x2="120" y2="99"/><line x1="10" y1="171" x2="120" y2="171"/>
+              <line x1="10" y1="28" x2="120" y2="28"/><line x1="10" y1="242" x2="120" y2="242"/>
+              <line x1="65" y1="14" x2="65" y2="99"/><line x1="65" y1="171" x2="65" y2="256"/>
+            </g>
+            <line x1="10" y1="135" x2="120" y2="135" stroke="#2A3566" stroke-width="2.4" stroke-dasharray="5 4"/>
+            <text x="88" y="208" text-anchor="middle" font-size="8" font-weight="700" fill="#21305C"><tspan x="88">單打</tspan><tspan x="88" dy="10">發球區</tspan></text>
+            <text x="41" y="48" text-anchor="middle" font-size="8" font-weight="700" fill="#21305C"><tspan x="41">單打</tspan><tspan x="41" dy="10">接球區</tspan></text>
+          </svg>
+        </div>
+        <div class="court-box">
+          <h3>雙打 Doubles</h3>
+          <svg viewBox="0 0 130 270" role="img" aria-label="雙打場地範圍：發球區與接球區為較寬、較淺的對角區域">
+            <rect x="65" y="171" width="55" height="71" fill="rgba(214,51,108,.18)"/>
+            <rect x="10" y="28" width="55" height="71" fill="rgba(214,51,108,.18)"/>
+            <g fill="none" stroke="#2A3566" stroke-width="1.4">
+              <rect x="10" y="14" width="110" height="242"/>
+              <line x1="18" y1="14" x2="18" y2="256"/><line x1="112" y1="14" x2="112" y2="256"/>
+              <line x1="10" y1="99" x2="120" y2="99"/><line x1="10" y1="171" x2="120" y2="171"/>
+              <line x1="10" y1="28" x2="120" y2="28"/><line x1="10" y1="242" x2="120" y2="242"/>
+              <line x1="65" y1="14" x2="65" y2="99"/><line x1="65" y1="171" x2="65" y2="256"/>
+            </g>
+            <line x1="10" y1="135" x2="120" y2="135" stroke="#2A3566" stroke-width="2.4" stroke-dasharray="5 4"/>
+            <text x="92" y="200" text-anchor="middle" font-size="8" font-weight="700" fill="#21305C"><tspan x="92">雙打</tspan><tspan x="92" dy="10">發球區</tspan></text>
+            <text x="37" y="56" text-anchor="middle" font-size="8" font-weight="700" fill="#21305C"><tspan x="37">雙打</tspan><tspan x="37" dy="10">接球區</tspan></text>
+          </svg>
+        </div>
+      </div>
+      <div class="legend">
+        <span><span class="sw" style="background:rgba(214,51,108,.3);border:1px solid #D6336C"></span>發球 / 接球範圍</span>
+        <span><span class="sw" style="background:#fff;border:1.4px solid #2A3566"></span>場地界線</span>
+        <span>— — 球網</span>
+      </div>
+      <p style="margin-top:12px;font-size:.88rem;color:var(--ink-soft);text-align:center">單打採內側邊線（窄、深）；雙打採外側邊線（寬），發球底線略為內縮。</p>
+    </div>
+  </section>
+
+  <!-- 6 獎勵方式 -->
+  <section id="prize">
+    <div class="sec-head"><span class="num">6</span><h2>獎勵方式 <span class="tag">暫定</span></h2></div>
+    <div class="card">
+      <div class="prizes">
+        <div class="prize gold"><div class="rank">🥇 單打冠軍</div><div class="amt">NT$1,600</div></div>
+        <div class="prize"><div class="rank">🥈 單打亞軍</div><div class="amt">NT$800</div></div>
+        <div class="prize gold"><div class="rank">🥇 雙打冠軍</div><div class="amt">NT$2,400 <small>/ 一隊</small></div></div>
+        <div class="prize"><div class="rank">🥈 雙打亞軍</div><div class="amt">NT$1,200 <small>/ 一隊</small></div></div>
+      </div>
+      <p class="extra">🎁 另設<strong class="hl">廠商贊助獎</strong>及<strong class="hl">獎牌</strong>等額外獎勵</p>
+    </div>
+  </section>
+
+  <!-- 7 報名資訊 -->
+  <section id="register">
+    <div class="sec-head"><span class="num">7</span><h2>報名資訊</h2></div>
+    <div class="card">
+      <dl class="reg-grid">
+        <dt>報名費用</dt><dd>單打 <strong class="hl">NT$700</strong>　・　雙打 <strong class="hl">NT$1,200</strong>（一隊）</dd>
+        <dt>繳費方式</dt><dd>轉帳至 <span class="acct">0000783540383067</span>，轉帳備註區請填<strong>姓名</strong>，並於報名表單填寫<strong>繳費末五碼</strong>。</dd>
+        <dt>官方 Instagram</dt><dd><a href="https://www.instagram.com/strawberry_championship?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">@strawberry_championship</a></dd>
+      </dl>
+      <ul class="reg-notes">
+        <li>⚠️ 已繳費仍未到場者<strong>不予退費</strong>；截止前未繳費者視同放棄參賽。</li>
+        <li>🎽 大會專屬<strong>紀念衫</strong>每件 NT$300，自由選購（可於報名表單一併登記尺寸）。</li>
+      </ul>
+      <div class="reg-cta">
+        <a class="cta" href="https://docs.google.com/forms/d/e/1FAIpQLSeBt60xEyiP-Oa-G78JisRGf8sQBV52wrW5EKBXMszRHAlbpA/viewform?usp=header" target="_blank" rel="noopener">🍓 前往報名表單 →</a>
+        <br><br>
+        <a class="cta" href="https://www.instagram.com/strawberry_championship?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">📸 追蹤官方 Instagram →</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="ft-title">草莓盃籌備委員會</div>
+  <div class="ft-meta">2026</div>
+  <div class="note">拒絕當草莓，我們球場上見！🏸　|　本簡章內容如有異動，以主辦單位最新公告為準。</div>
+</footer>
+
+<a href="#top" class="totop" id="totop" aria-label="回到頁面最上方">↑</a>
+<script>
+(function(){var b=document.getElementById('totop');function s(){if(window.scrollY>320){b.classList.add('show');}else{b.classList.remove('show');}}window.addEventListener('scroll',s,{passive:true});s();})();
+</script>
+
+</body>
+</html>
